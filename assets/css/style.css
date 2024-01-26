@@ -9,3 +9,8 @@
 body {
   font-family: Raleway, sans-serif;
 }
+
+.logoHeader {
+    width: 30px;
+    height: 30px;
+}
