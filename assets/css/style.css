@@ -8,6 +8,8 @@
 
 body {
   font-family: Raleway, sans-serif;
+  background-color: #000000;
+  color: #ffffff;
 }
 
 .logoHeader {
@@ -27,3 +29,6 @@ body {
     color: #ffffff !important;
   }
   
+  #Quienes-somos {
+    margin-top: 50px;
+  }
