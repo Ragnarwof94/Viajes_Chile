@@ -1,24 +1,27 @@
-window.onscroll = function() {
-    var navbar = document.querySelector('.navbar');
-    if (window.pageYOffset > 0) {
-      navbar.style.backgroundColor = '#0DCAF0'; 
-    } else {
-      navbar.style.backgroundColor = 'transparent' ;
-    }
-  };
+//Smooth Scroll
+$(document).ready(function () {
+  let $root = $("html, body");
 
-  //Smooth Scroll//
-  $(document).ready(function(){
-    $("a").on('click', function(event) {
-      if (this.hash !== "") {
-        event.preventDefault();
-        var hash = this.hash;
-        $('html, body').animate({
-          scrollTop: $(hash).offset().top
-        }, 800, function(){
-          window.location.hash = hash;
-        });
+  $('a[href^="#"]').click(function () {
+    $root.animate(
+      {
+        scrollTop: $($.attr(this, "href")).offset().top - 100,
+      },
+      500
+    );
+
+    return false;
+  });
+
+  //Cambio de color al navbar en desplazamiento
+  $(function () {
+    $(window).scroll(function () {
+      let navegador = $(".navbar");
+      if ($(this).scrollTop() > 100) {
+        navegador.css("background", "#0DCAF0");
+      } else {
+        navegador.css("background", "none");
       }
     });
   });
-  
+});

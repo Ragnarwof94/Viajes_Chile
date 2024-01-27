@@ -13,87 +13,94 @@ body {
 }
 
 .logoHeader {
-    width: 30px;
-    height: 30px;
+  width: 30px;
+  height: 30px;
 }
 
 .navbar {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 100; 
-    background-color: transparent !important; 
-    background-color: #0DCAF0;
-    transition: background-color 0.4s;
-  }
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  transition: background-color 0.4s;
+}
 
-  .navbar a {
-    color: #ffffff !important;
-  }
-  
-  #Quienes-somos {
-    margin-top: 50px;
-  }
+.navbar a {
+  color: #FFFFFF !important;
+}
 
-  #Destacados {
-    margin-top: 50px;
-  }
+.navbar-brand {
+  margin-left: 15px;
+}
 
-  .card-img-top {
-    max-height: 150px;
-    object-fit: cover; 
+.navbar-nav {
+  margin-right: 15px;
+}
+
+#Quienes-somos {
+  margin-top: 50px;
+}
+
+#Destacados {
+  margin-top: 50px;
+}
+
+.card-img-top {
+  max-height: 150px;
+  object-fit: cover;
 }
 
 .card-body {
-    padding: 15px;
-    margin: 0;
-    background-color: #0DCAF0;
-    color: #FFFFFF;
+  padding: 15px;
+  margin: 0;
+  background-color: #0DCAF0;
+  color: #FFFFFF;
 }
 
 .card-text {
-    margin-bottom: 50px;
-    padding-bottom: 10px;
+  margin-bottom: 50px;
+  padding-bottom: 10px;
 }
 
 #Contacto {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
 .form-group {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 textarea {
-    height: 200px;
+  height: 200px;
 }
 
 .btn {
-    margin-top: 3px;
+  margin-top: 3px;
 }
 
 button {
-    margin-bottom: 25px;
+  margin-bottom: 25px;
 }
+
 button.btn.btn-primary {
-    background-color: #0DCAF0; 
-    color: #FFFFFF; 
+  background-color: #0DCAF0;
+  color: #ffffff;
 }
 
 footer {
-    background-color: #0DCAF0;
-    padding-top: 20px;
-    padding-bottom: 15px;
+  background-color: #0DCAF0;
+  padding-top: 20px;
+  padding-bottom: 15px;
 }
 
 footer h5 {
-    padding-left: 150px;
+  padding-left: 150px;
 }
 
 .ms-auto {
-    padding-right: 150px;
+  padding-right: 150px;
 }
 
 .ms-auto i {
-    margin: 0 5px;
+  margin: 0 5px;
 }
