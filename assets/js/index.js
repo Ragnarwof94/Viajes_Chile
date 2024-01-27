@@ -3,7 +3,7 @@ window.onscroll = function() {
     if (window.pageYOffset > 0) {
       navbar.style.backgroundColor = '#007B9E'; 
     } else {
-      navbar.style.backgroundColor = 'transparent';
+      navbar.style.backgroundColor = 'transparent' ;
     }
   };
   
