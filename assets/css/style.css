@@ -25,6 +25,7 @@ body {
     background-color: transparent !important; 
     transition: background-color 0.4s;
   }
+
   .navbar a {
     color: #ffffff !important;
   }
@@ -64,4 +65,26 @@ body {
 
 .btn {
     margin-top: 3px;
+}
+
+button {
+    margin-bottom: 25px;
+}
+
+footer {
+    background-color: #0DCAF0;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+footer h5 {
+    padding-left: 150px;
+}
+
+.ms-auto {
+    padding-right: 150px;
+}
+
+.ms-auto i {
+    margin: 0 5px;
 }
