@@ -44,5 +44,24 @@ body {
 
 .card-body {
     padding: 15px;
+    margin: 0;
+    background-color: #0DCAF0;
+    color: #FFFFFF;
+}
+
+.card-text {
+    margin-bottom: 50px;
+    padding-bottom: 10px;
+}
+
+#Contacto {
+    margin-top: 50px;
+}
+
+.form-group {
     margin-bottom: 10px;
+}
+
+.btn {
+    margin-top: 3px;
 }
