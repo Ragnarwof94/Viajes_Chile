@@ -63,12 +63,20 @@ body {
     margin-bottom: 10px;
 }
 
+textarea {
+    height: 200px;
+}
+
 .btn {
     margin-top: 3px;
 }
 
 button {
     margin-bottom: 25px;
+}
+button.btn.btn-primary {
+    background-color: #0DCAF0; 
+    color: #FFFFFF; 
 }
 
 footer {
