@@ -32,3 +32,17 @@ body {
   #Quienes-somos {
     margin-top: 50px;
   }
+
+  #Destacados {
+    margin-top: 50px;
+  }
+
+  .card-img-top {
+    max-height: 150px;
+    object-fit: cover; 
+}
+
+.card-body {
+    padding: 15px;
+    margin-bottom: 10px;
+}
