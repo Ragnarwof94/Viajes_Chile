@@ -25,3 +25,12 @@ $(document).ready(function () {
     });
   });
 });
+
+//Event Listener botón enviar//
+document.addEventListener('DOMContentLoaded', function() {
+  let form = document.querySelector('#Contacto form');
+  form.addEventListener('submit', function(event) {
+      event.preventDefault();
+      alert('Su mensaje ha sido enviado correctamente');
+  });
+});
