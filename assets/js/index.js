@@ -7,6 +7,7 @@ window.onscroll = function() {
     }
   };
   
+  //Smooth Scroll//
   $(document).ready(function(){
     $("a").on('click', function(event) {
       if (this.hash !== "") {
