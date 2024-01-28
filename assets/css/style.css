@@ -91,15 +91,26 @@ footer {
   background-color: #0DCAF0;
   padding-top: 20px;
   padding-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 footer h5 {
-  padding-left: 150px;
+  padding-left: 4px;
+  order: -1; /* Esto asegura que "Viajes Chile" siempre esté arriba */
+  margin-bottom: 10px;
 }
 
 @media (min-width: 768px) { /* Pantallas medianas (md) y más grandes */
   footer .container .ms-auto {
     margin-left: auto;
+  }
+}
+@media screen and (min-width: 1024px) {
+  /* Margin-left para la sección de redes sociales en pantallas de escritorio */
+  #Redes-Sociales {
+    margin-left: 300px;
   }
 }
 
@@ -118,6 +129,7 @@ footer h5 {
 .icono-azul2 {
   color: #0a66c2;
 }
+
 .ms-auto {
   padding-right: 150px;
 }
@@ -135,3 +147,35 @@ footer h5 {
   border-top-color: #0DCAF0; /* Color de la flecha del tooltip */
 }
 
+/* Esto ajusta el estilo dependiendo del tamaño de la pantalla */
+@media screen and (max-width: 760px) {
+
+  /*El logo, el título y el menú tengan un margen adecuado */
+  .logo, .titulo, .menu {
+    margin: 10px;
+  }
+
+  /*Flexbox para controlar la disposición de los elementos */
+  .header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  /* Ajusta la altura del footer */
+  .footer {
+    height: auto;
+  }
+
+  #Redes-Sociales {
+    display: flex;
+    justify-content: center;
+    width: 140%;
+    flex-wrap: wrap;
+    padding-left: 20px;
+  }
+}
+
+/*El documento ocupa todo el alto de la página */
+html, body {
+  height: 100%;
+}
