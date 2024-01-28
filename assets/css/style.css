@@ -104,3 +104,13 @@ footer h5 {
 .ms-auto i {
   margin: 0 5px;
 }
+
+.tooltip .tooltip-inner {
+  background-color: #0DCAF0; /* Color de fondo del tooltip */
+  color: #ffffff; /* Color del texto del tooltip */
+}
+
+.tooltip .arrow::before {
+  border-top-color: #0DCAF0; /* Color de la flecha del tooltip */
+}
+
