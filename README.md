@@ -228,5 +228,4 @@ document.addEventListener('DOMContentLoaded', function() {
 })
 ```
 
-https://github.com/Ragnarwof94/Viajes_Chile
-===========================================
+https://ragnarwof94.github.io/Viajes_Chile/
