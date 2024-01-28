@@ -103,6 +103,21 @@ footer h5 {
   }
 }
 
+.icono-blanco {
+  color: #FFFFFF;
+}
+
+.icono-azul {
+  color: #1877f2;
+}
+
+.icono-black {
+  color: #000000;
+}
+
+.icono-azul2 {
+  color: #0a66c2;
+}
 .ms-auto {
   padding-right: 150px;
 }
