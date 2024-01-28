@@ -34,3 +34,17 @@ document.addEventListener('DOMContentLoaded', function() {
       alert('Su mensaje ha sido enviado correctamente');
   });
 });
+
+//Tooltip de ayuda botón enviar
+document.addEventListener('DOMContentLoaded', function() {
+  var button = document.querySelector('#Contacto button');
+  button.setAttribute('data-toggle', 'tooltip');
+  button.setAttribute('data-placement', 'right');
+  button.setAttribute('title', 'Haz clic para enviar tu mensaje');
+
+  // Inicializar todos los tooltips en el documento
+  $(function () {
+      $('[data-toggle="tooltip"]').tooltip()
+  });
+});
+
