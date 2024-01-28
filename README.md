@@ -225,7 +225,8 @@ document.addEventListener('DOMContentLoaded', function() {
   $(function () {
       $('[data-toggle="tooltip"]').tooltip()
   });
-});
+})
 ```
 
 https://github.com/Ragnarwof94/Viajes_Chile
+===========================================
