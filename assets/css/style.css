@@ -97,6 +97,12 @@ footer h5 {
   padding-left: 150px;
 }
 
+@media (min-width: 768px) { /* Pantallas medianas (md) y más grandes */
+  footer .container .ms-auto {
+    margin-left: auto;
+  }
+}
+
 .ms-auto {
   padding-right: 150px;
 }
