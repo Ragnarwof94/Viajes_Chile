@@ -1,5 +1,7 @@
 # Documentación del Sitio Web Viajes Chile
 
+( Se recomienda la extensión **Office Viewer(Markdown Editor)**`v3.1.8` para el README)
+
 ## Tabla de Contenidos
 
 - [Introducción](#introducción)

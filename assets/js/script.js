@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 //Tooltip de ayuda botón enviar
 document.addEventListener('DOMContentLoaded', function() {
-  var button = document.querySelector('#Contacto button');
+  let button = document.querySelector('#Contacto button');
   button.setAttribute('data-toggle', 'tooltip');
   button.setAttribute('data-placement', 'right');
   button.setAttribute('title', 'Haz clic para enviar tu mensaje');
