@@ -23,14 +23,22 @@ body {
   width: 100%;
   z-index: 100;
   transition: background-color 0.4s;
+  padding-top: 20px;
 }
 
 .navbar a {
   color: #FFFFFF !important;
+  padding-bottom: 20px;
+  margin-left: 50px;
 }
 
 .navbar-brand {
-  margin-left: 100px;
+  margin-left: 60px;
+  
+}
+
+.navbar-toggler {
+  margin-right: 20px;
 }
 
 .navbar-nav {
@@ -179,7 +187,7 @@ footer h5 {
     width: 140%;
     flex-wrap: wrap;
     padding-left: 20px;
-    margin-left: 30px;
+    margin-left: 33px;
   }
 }
 
