@@ -23,7 +23,7 @@ body {
   width: 100%;
   z-index: 100;
   transition: background-color 0.4s;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
 .navbar a {
