@@ -114,6 +114,13 @@ footer h5 {
   }
 }
 
+/* Soluciona el problemas de los iconos juntos al h5 en esta resolución responsive de pantalla */
+@media (min-width: 761px) and (max-width: 1023px) {
+  #Redes-Sociales {
+    margin-left: 150px;
+  }
+}
+
 .icono-blanco {
   color: #FFFFFF;
 }
@@ -172,6 +179,7 @@ footer h5 {
     width: 140%;
     flex-wrap: wrap;
     padding-left: 20px;
+    margin-left: 30px;
   }
 }
 
