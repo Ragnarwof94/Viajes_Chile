@@ -1,8 +1,10 @@
+# Estilos CSS para el Sitio Web Viajes Chile
+
 # Documentación del Sitio Web Viajes Chile
 
-( Se recomienda la extensión **Office Viewer(Markdown Editor)**`v3.1.8` para el README)
+(En VS Code, se recomienda la extensión **Office Viewer(Markdown Editor)**`v3.1.8` para el README)
 
-## Página GitHub Pages: https://ragnarwof94.github.io/Viajes_Chile/
+## Página GitHub Pages: [Viajes Chile](https://ragnarwof94.github.io/Viajes_Chile/)
 
 ## Tabla de Contenidos
 
@@ -55,7 +57,7 @@ Este documento proporciona documentación para el código HTML del sitio web Via
 
 ### Sección de Carrusel
 
-- Carrusel de imágenes con imágenes panorámicas con un intervalo de 10 segundos para desplazamiento automático.
+- Carrusel de imágenes con imágenes panorámicas con un intervalo de 5 segundos para desplazamiento automático.
 - Botones de navegación para control manual.
 
 ## Sección Quiénes Somos
@@ -85,10 +87,6 @@ Este documento proporciona documentación para el código HTML del sitio web Via
 - Popper.js (versión 2.11.8) para la posición de tooltips y popovers.
 - Bootstrap (versión 5.3.2) para el diseño receptivo y funcionalidad adicional de JavaScript.
 - Se incluye JavaScript personalizado desde el archivo "./assets/js/script.js".
-
-Esta documentación proporciona una descripción general de la estructura y funcionalidad del sitio web. Consulte las secciones respectivas para obtener información detallada sobre cada parte del sitio.
-
-# Estilos CSS para el Sitio Web Viajes Chile
 
 ## Fuentes
 
@@ -158,9 +156,71 @@ Se establecen estilos iniciales para el cuerpo y otros elementos con márgenes y
 
 Este documento proporciona una descripción de los estilos CSS utilizados en el sitio web Viajes Chile. Consulte las secciones respectivas para obtener información detallada sobre cada conjunto de estilos.
 
+
+# Estilos CSS para el Sitio Web Viajes Chile
+
+## Fuentes
+
+Se importa la fuente "Raleway" desde Google Fonts con los pesos 400 y 700.
+
+## Reset de Estilos Globales
+
+Se establecen estilos iniciales para el cuerpo y otros elementos con márgenes y rellenos a cero.
+
+## Estilos Generales del Cuerpo
+
+- Se utiliza la fuente "Raleway" como la fuente principal.
+- El fondo del cuerpo es negro (#000000) y el color del texto es blanco (#ffffff).
+
+## Estilos de la Barra de Navegación (Navbar)
+
+- La barra de navegación tiene posición fija en la parte superior, transición de color de fondo y se ajusta al ancho de la pantalla.
+- Enlaces de navegación en color blanco (#FFFFFF).
+- La marca (logo) de la barra de navegación tiene un margen a la izquierda.
+
+## Secciones Específicas
+
+### Quiénes Somos
+
+- Espaciado superior de 50px.
+
+### Destacados
+
+- Espaciado superior de 50px.
+- Imágenes de las tarjetas se ajustan a una altura máxima de 150px con object-fit: cover.
+
+### Tarjetas (Cards)
+
+- Los cuerpos de las tarjetas tienen un fondo azul claro (#0DCAF0) y texto blanco (#FFFFFF).
+- El texto de la tarjeta tiene un margen inferior de 50px.
+
+### Contacto
+
+- Espaciado superior de 50px.
+- Los elementos del formulario tienen un margen inferior de 10px.
+- La altura del área de texto del formulario es de 200px.
+
+### Botones
+
+- Margen superior de 3px.
+- Los botones en general tienen un margen inferior de 25px.
+- El botón principal tiene un fondo azul claro (#0DCAF0) y texto blanco (#ffffff).
+
+## Pie de Página (Footer)
+
+- Fondo azul claro (#0DCAF0).
+- Diseño de columna y fila con el nombre de la empresa ("VIAJES CHILE") y enlaces a redes sociales.
+- Enlaces de redes sociales en blanco (#FFFFFF).
+
+## Responsive Design
+
+- Ajustes específicos para tamaños de pantalla más pequeños.
+- Márgenes, flexbox y ajustes de altura para dispositivos móviles.
+
+
 # Scripts JavaScript para el Sitio Web Viajes Chile
 
-## Smooth Scroll
+## Smooth Scroll y cambio del color del navbar en desplazamiento
 
 Se utiliza el efecto de desplazamiento suave al hacer clic en enlaces internos del sitio.
 
@@ -212,7 +272,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 ```
 
-# Inicialización de Tooltips para el Botón de Enviar
+# Inicialización de Tooltips para el Botón de Enviar y opción pause establecida en false en el carrusel.
 
 ```javascript
 # Asegurarse de que el DOM esté completamente cargado antes de ejecutar el código
@@ -230,4 +290,10 @@ document.addEventListener('DOMContentLoaded', function() {
       $('[data-toggle="tooltip"]').tooltip()
   });
 })
+
+//Nueva instancia del carrusel con la opción pause establecida en false
+// El carrusel no se pausará cuando el mouse esté encima.
+let carousel = new bootstrap.Carousel(document.querySelector('#carouselExample'), {
+  pause: false
+});
 ```
