@@ -2,6 +2,8 @@
 
 ( Se recomienda la extensión **Office Viewer(Markdown Editor)**`v3.1.8` para el README)
 
+## Página GitHub Pages: https://ragnarwof94.github.io/Viajes_Chile/
+
 ## Tabla de Contenidos
 
 - [Introducción](#introducción)
@@ -229,5 +231,3 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 })
 ```
-
-https://ragnarwof94.github.io/Viajes_Chile/
