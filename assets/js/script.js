@@ -26,6 +26,12 @@ $(document).ready(function () {
   });
 });
 
+//Nueva instancia del carrusel con la opción pause establecida en false
+// El carrusel no se pausará cuando el mouse esté encima.
+let carousel = new bootstrap.Carousel(document.querySelector('#carouselExample'), {
+  pause: false
+});
+
 //Event Listener botón enviar//
 document.addEventListener('DOMContentLoaded', function() {
   let form = document.querySelector('#Contacto form');
