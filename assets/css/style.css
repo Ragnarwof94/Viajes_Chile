@@ -125,7 +125,7 @@ footer h5 {
 /* Soluciona el problemas de los iconos juntos al h5 en esta resolución responsive de pantalla */
 @media (min-width: 761px) and (max-width: 1023px) {
   #Redes-Sociales {
-    margin-left: 150px;
+    margin-left: 110%;
   }
 }
 
