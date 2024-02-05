@@ -28,14 +28,13 @@ body {
 }
 
 .navbar a {
-  color: #FFFFFF !important;
+  color: #ffffff !important;
   padding-bottom: 20px;
   margin-left: 10px;
 }
 
 .navbar-brand {
   margin-left: 60px;
-  
 }
 
 .navbar-toggler {
@@ -62,8 +61,8 @@ body {
 .card-body {
   padding: 15px;
   margin: 0;
-  background-color: #0DCAF0;
-  color: #FFFFFF;
+  background-color: #0dcaf0;
+  color: #ffffff;
 }
 
 .card-text {
@@ -92,12 +91,12 @@ button {
 }
 
 button.btn.btn-primary {
-  background-color: #0DCAF0;
+  background-color: #0dcaf0;
   color: #ffffff;
 }
 
 footer {
-  background-color: #0DCAF0;
+  background-color: #0dcaf0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -110,7 +109,8 @@ footer h5 {
   margin-bottom: 10px;
 }
 
-@media (min-width: 768px) { /* Pantallas medianas (md) y más grandes */
+@media (min-width: 768px) {
+  /* Pantallas medianas (md) y más grandes */
   footer .container .ms-auto {
     margin-left: auto;
   }
@@ -138,7 +138,7 @@ footer h5 {
 }
 
 .icono-X {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .icono-facebook {
@@ -154,19 +154,20 @@ footer h5 {
 }
 
 .tooltip .tooltip-inner {
-  background-color: #0DCAF0; /* Color de fondo del tooltip */
+  background-color: #0dcaf0; /* Color de fondo del tooltip */
   color: #ffffff; /* Color del texto del tooltip */
 }
 
 .tooltip .arrow::before {
-  border-top-color: #0DCAF0; /* Color de la flecha del tooltip */
+  border-top-color: #0dcaf0; /* Color de la flecha del tooltip */
 }
 
 /* Esto ajusta el estilo dependiendo del tamaño de la pantalla */
 @media screen and (max-width: 760px) {
-
   /*El logo, el título y el menú tengan un margen adecuado */
-  .logo, .titulo, .menu {
+  .logo,
+  .titulo,
+  .menu {
     margin: 10px;
   }
 
@@ -192,6 +193,7 @@ footer h5 {
 }
 
 /*El documento ocupa todo el alto de la página */
-html, body {
+html,
+body {
   height: 100%;
 }
