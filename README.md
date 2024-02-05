@@ -1,5 +1,3 @@
-# Estilos CSS para el Sitio Web Viajes Chile
-
 # Documentación del Sitio Web Viajes Chile
 
 (En VS Code, se recomienda la extensión **Office Viewer(Markdown Editor)**`v3.1.8` para el README)
@@ -156,7 +154,6 @@ Se establecen estilos iniciales para el cuerpo y otros elementos con márgenes y
 
 Este documento proporciona una descripción de los estilos CSS utilizados en el sitio web Viajes Chile. Consulte las secciones respectivas para obtener información detallada sobre cada conjunto de estilos.
 
-
 # Estilos CSS para el Sitio Web Viajes Chile
 
 ## Fuentes
@@ -216,7 +213,6 @@ Se establecen estilos iniciales para el cuerpo y otros elementos con márgenes y
 
 - Ajustes específicos para tamaños de pantalla más pequeños.
 - Márgenes, flexbox y ajustes de altura para dispositivos móviles.
-
 
 # Scripts JavaScript para el Sitio Web Viajes Chile
 

@@ -18,13 +18,17 @@ $(document).ready(function () {
     $(window).scroll(function () {
       let navegador = $(".navbar");
       if ($(this).scrollTop() > 100) {
-        navegador.css("background", "#0DCAF0");
+        navegador.css({
+          "background": "rgba(13, 202, 240, 0.5)",
+          "backdrop-filter": "blur(10px)" // Agrega desenfoque
+        });
       } else {
         navegador.css("background", "none");
       }
     });
   });
 });
+
 
 //Nueva instancia del carrusel con la opción pause establecida en false
 // El carrusel no se pausará cuando el mouse esté encima.
